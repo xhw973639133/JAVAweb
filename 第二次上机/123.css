@@ -1,0 +1,44 @@
+#boarder{
+    border:solid 5px rgb(229, 255, 0);
+    border-radius: 10px;
+    -moz-border-radius:20px;
+    padding:10px;
+    width: 500px;
+
+
+}
+h2{
+    font-family:宋体;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+p{
+    font-family:黑体;
+    color:rgb(255, 255, 255);
+    font-size: 26px;
+}
+#topHeader a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border:solid 5px rgb(6, 204, 49);
+    border-radius: 20px;
+    -moz-border-radius:20px;
+    padding:5px;
+    width:40px;
+}
+.login-button { /* 按钮美化 */
+	width: 100px; /* 宽度 */
+	height: 30px; /* 高度 */
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+	background: #1E90FF; /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 17px; /* 字体大小 */
+}
+.login-button:hover { /* 鼠标移入按钮范围时改变颜色 */
+	background: #5599FF;
+}

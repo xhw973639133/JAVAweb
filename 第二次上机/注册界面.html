@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册界面</title>
+    <link rel="stylesheet" href="123.css" type="text/css">
+    <style window.οnlοad=function(){}>
+        .info{
+            color: red;
+            font-size: 11px;
+        }
+    </style>
+    <script type="text/javascript" src="注册.js">
+    </script>
+</head>
+<body
+   
+    background="10.jpg" ;="" style=" background-repeat: no-repeat;
+	background-size:100% 100%;
+    background-attachment:fixed;"> 
+
+    <div  id="topHeader" align="center">
+        <h1>
+            <a href="登陆界面.html"> 返回主页 </a>
+        </h1>
+     </div >
+   <div align="center">
+     <h2 >
+        <div id="boarder" >
+            <p align="left">
+                注册界面
+            </p>
+            <p align="center">
+                <div id="clock"></div>
+            </p>
+            <form aaction =""method="post" name="myform" >
+                <table align="center">
+                    <tr>
+                        <td align="right">
+                            用户名：
+                        </td>
+                        <td align="left">
+                            <input name="username" type="text"  onblur="checkUsername();" >
+                        </td>
+                        <td align="left"><span class="info" id="usernameInfo"></span>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            姓名：
+                        </td>
+                        <td align="left">
+                            <input name="xingming" type="text" size="20" maxlength="20" onblur="checkxingming();">
+                        </td>
+                        <td align="left"><span class="info" id="xingmingInfo"></span></td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            设置密码：
+                        </td>
+                        <td align="left">
+                            <input name="password" type="password" id="PWD14" size="20" maxlength="20" onblur="checkPassword();">
+                        </td>
+                        <td align="left"><span class="info" id="passwordInfo"></span></td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            确认密码：
+                        </td>
+                        <td align="left">
+                            <input name="qpassword" type="password"  size="20" maxlength="20" onblur="checkqPassword();">
+                        </td>
+                        <td align="left"><span class="info" id="qpasswordInfo"></span></td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            手机号码：
+                        </td>
+                        <td align="left">
+                            <input name="phone" type="text" size="20" maxlength="20" onblur="checkphone();">
+                        </td>
+                        <td align="left"><span class="info" id="phoneInfo"></span></td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            邮箱：
+                        </td>
+                        <td align="left">
+                            <input name="email" type="text" id="PWD1" size="20" maxlength="20" onblur="checkemail();">
+                        </td>
+                        <td align="left"><span class="info" id="emailInfo"></span></td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                           所在单位：
+                        </td>
+                        <td align="left">
+                            <input name="danwei" type="text" id="DW1" size="20" maxlength="20" onblur="checkdanwei();">
+                        </td>
+                        <td align="left"><span class="info" id="danweiInfo"></span></td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            验证码：
+                        </td>
+                        <td align="left">
+                            <input id="imageCode" type="text"  maxlength="20" onblur="checkImageCode();">&nbsp<img src="CheckCode (1).gif" alt="" srcset="" height="20" width="60" align="center"> 
+                        </td>
+                        <td align="left"><span class="info" id="imageCodeInfo"></span></td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            注册类型：
+                        </td>
+                        <td align="left">
+                            <input name="leixing" type="radio" class ="noborder" value="学生" checked>
+                            学生&nbsp;
+                            <input name="leixing" type="radio" class="noborder" value="教师">
+                            教师&nbsp;
+                            <input name="leixing" type="radio" class="noborder" value="管理员">
+                            管理员
+                        </td>
+                    </tr>
+                   <tr>
+                    <td align="right">
+                        <a href="登陆界面.html"><input type="button" value="确认" class="login-button" onclick="return checkLogin();"></a>
+                        </td>
+                        <td align="left">
+                            <input type="reset" value="重新输入" class="login-button">
+                        </td>
+                   </tr>                   
+                   
+                </table>
+                
+            </form>
+        </div>
+    </h2>
+ </div >
+</body>
+</html>

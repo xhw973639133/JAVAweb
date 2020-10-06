@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>学籍管理系统</title>
+    <link rel="stylesheet" href="123.css" type="text/css">
+    <style window.οnlοad=function(){}>
+        .info{
+            color: red;
+            font-size: 11px;
+            text-align:left;
+        }
+    </style>
+    <script type="text/javascript" src="登录.js">
+    </script>
+</head>
+<body
+
+    background="1.jpg" ;="" style=" background-repeat: no-repeat;
+	background-size:100% 100%;
+    background-attachment:fixed;"> 
+    <div id="topHeader">
+        <h1>
+            <a href="登陆界面.html"> 返回主页 </a>
+        </h1>
+    </div>
+    <h2>
+    <div id="boarder">
+        <p align="left">
+            登录页面
+        </p>
+        <p align="center">
+            <div id="clock"></div>
+        </p>
+        <form aaction =""method="post" name="myform" >
+            <table align="center" > 
+                <tr>
+                    <td align="right">
+                        用户名：
+                    </td>
+                    <td align="left">
+                        <input name="username" type="text"  onblur="checkUsername();" >
+                    </td>
+                    <td align="left"><span class="info" id="usernameInfo"></span>
+                </tr>
+                <tr>
+                    <td align="right">
+                        密  码：
+                    </td>
+                    <td align="left">
+                        <input name="password" type="password" id="PWD14" size="20" maxlength="20" onblur="checkPassword();">
+                    </td>
+                    <td align="left"><span class="info" id="passwordInfo"></span></td>
+                </tr>
+
+                <tr>
+                    <td align="right">
+                        验证码：
+                    </td>
+                    <td align="left">
+                        <input id="imageCode" type="text"  maxlength="20" onblur="checkImageCode();">&nbsp<img src="CheckCode.gif" alt="" srcset="" height="20" width="60" align="center"> 
+                    </td>
+                    <td align="left"><span class="info" id="imageCodeInfo"></span></td>
+
+                </tr>
+                <tr>
+                    <td align="right">
+                        类型：
+                    </td>
+                    <td align="left">
+                        <input name="leixing" type="radio" class ="noborder" value="学生" checked>
+                        学生&nbsp;
+                        <input name="leixing" type="radio" class="noborder" value="教师">
+                        教师&nbsp;
+                        <input name="leixing" type="radio" class="noborder" value="管理员">
+                        管理员
+                    </td>
+                </tr>
+               <tr>
+                    <td align="right">
+                        
+                    </td>
+                    <td align="left">
+                        <a href="管理界面.html"><input type="button" value="登录&raquo;" class="login-button" onclick="return checkLogin();"></a>
+                        <a href="注册界面.html"><input type="button" value="注册" class="login-button"></a>
+                    </td>
+               </tr>
+               <tr>
+                   <td>
+
+                   </td>
+                   <td align="left">
+                    <input type="reset" value="重新输入" class="login-button" >
+                    
+                   </td>
+               </tr>
+               
+               
+            </table>
+            
+        </form>
+    </div>
+</h2>
+
+</body>
+</html>
